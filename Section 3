@@ -1,0 +1,14 @@
+//S3 Q1 the 1st is a not infinite, it should run only once, the 2nd is infinite, because it's true while it's false, so it will run forever.
+
+let letters = "A";//name of the loop and string
+let i = 0;//starts count from 0
+
+//while loop from 0 to 20
+while (i < 20) {
+	//all letters A in one line
+	letters += "A";
+	//adding one
+	i++;
+}
+//prints the 20 strings A in one single line
+console.log(letters);
