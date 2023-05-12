@@ -1,0 +1,23 @@
+//S2 Q1 
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kelvin';
+const f = false;
+console.log(a < b);
+console.log(c > d);
+console.log("Name" !== "Name");
+console.log(a < b < c);
+console.log(a !== a && a < b);
+console.log(e != "Kevin");
+console.log(48 !== "48");
+console.log(f != e);
+let g = 0
+console.log(g != (b + c));
+console.log(g)
+console.log(g = 10)
+
+//S2 Q2 I used let
+
+//S2 Q3 it will give me g=10
