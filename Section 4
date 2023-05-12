@@ -1,0 +1,10 @@
+//S4 Q1 for loop is used when the number of iterations is known, whereas execution is done in the while loop until the statement in the program is proved wrong
+
+
+//S4 Q2  The first part of the control panel is:virtual control panel
+//The second part of the control panel is:remote control panel, and the 
+//The third part of the control panel is:physical control panel.
+
+for (let i = 0; i <= 999; i++) {
+	console.log(i);
+}
