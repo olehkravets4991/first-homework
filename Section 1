@@ -1,0 +1,5 @@
+//S1 Q1 Concatenation allows you to combine to strings together and it only works on two strings.
+// Swift uses string interpolation to include the name of a constant or variable as a placeholder in a longer string, and to prompt Swift to replace it with the current value of that constant or variable
+//DRY- Do not Repeat Yourself.
+
+//S1 Q2 var declarations are globally scoped or function scoped while let and const are block scoped
