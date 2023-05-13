@@ -1,0 +1,230 @@
+ krave@LAPTOP-04T7QQ4A MINGW64 /
+# $ cd ~/desktop
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop
+# $ cd homework
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework
+# $ cd first-homework
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework (master)
+# $ mkdir galaxy_far_far_away
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework (master)
+# $ cd galaxy_far_far_away
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ mkdir death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework (master)
+# $ mkdir tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework (master)
+# $ cd tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/tatooine (master)
+# $ cd galaxy_far_far_away
+# bash: cd: galaxy_far_far_away: No such file or directory
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/tatooine (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework (master)
+# $ cd galaxy_far_far_away
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ touch luke.txt ben_kenobi.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ mkdir millenium_falcon
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ touch han_solo.txt chewbaca.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ mv ben_kenobi.txt obi_van.txt
+# mv: cannot stat 'ben_kenobi.txt': No such file or directory
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ mv ben_kenobi.txt obi_van.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cp storm_trooper ../tatooine
+# cp: cannot stat 'storm_trooper': No such file or directory
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cp storm_trooper.txt ../tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd tatooine
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ mv luke.txt obi_van.txt millenium_falcon
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ mv millenium_falcon
+# mv: missing destination file operand after 'millenium_falcon'
+# Try 'mv --help' for more information.
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ mv millenium_falcon ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/tatooine (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ mv millenium_falcon ../death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv princess_leia.txt ../millenium_falcon
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd millenium_falcon
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/millenium_falcon (master)
+# $ rm obi_van.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/millenium_falcon (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ mkdir yavin_4
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv millenium_falcon
+# mv: missing destination file operand after 'millenium_falcon'
+# Try 'mv --help' for more information.
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv millenium_falcon ..
+# mv: cannot overwrite non-directory '../millenium_falcon' with directory 'millenium_falcon'
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv millenium_falcon ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv millenium_falcon ../yavin_4
+# mv: cannot stat 'millenium_falcon': No such file or directory
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ mv millenium_falcon ../yavin_4
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd yavin_4
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ mkdir x_wing
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ mv millenium_falcon ../x_wing
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ mv millenium_falcon ../x_wing
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ mv millenium_falcon x_wing
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ mv x_wing ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/yavin_4 (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $  mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv darth_vader.txt tie_fighter_1
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cp storm_trooper.txt tie_fighter_2
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cp storm_trooper.txt tie_fighter_3
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv storm_trooper.txt ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd tie_fighter_2
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/tie_fighter_2 (master)
+# $ mv storm_trooper.txt ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/tie_fighter_2 (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv storm_trooper.txt ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd tie_fighter_3
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/tie_fighter_3 (master)
+# $ mv storm_trooper.txt ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star/tie_fighter_3 (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ mv storm_trooper.txt ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ rm -r - tie_fighter_2 tie_fighter_3
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/death_star (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ cd x_wing
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/x_wing (master)
+# $ touch the_force.txt
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away/x_wing (master)
+# $ cd ..
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $ rm -r death_star
+
+# krave@LAPTOP-04T7QQ4A MINGW64 ~/desktop/homework/first-homework/galaxy_far_far_away (master)
+# $
